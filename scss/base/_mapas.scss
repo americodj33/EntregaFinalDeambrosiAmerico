@@ -1,0 +1,21 @@
+/* un mapa podemos tener un objeto que contiene
+diferentes valores para una misma seccion
+*/
+/* Se arman con () y dentro hay una key
+y un valor */
+@import '../base/listas';
+$nuestroblog: (
+    bg-color-standard: gray,
+
+);
+
+
+
+$portafolio: (
+    bg-color-standard: gray,
+    font-size:14px,
+    padding: 0,
+    border-radius: 5px
+
+
+)

@@ -1,0 +1,116 @@
+@import '../base/mapas';
+@import '../base/listas';
+@import '../base/mixins';
+
+
+body {
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  font-family: 'Poppins', sans-serif;
+  height: 500px;
+  width: 1280px;
+  max-width: 1280px;
+  margin: 120 20;
+
+}
+
+.contacto {
+  clear: right;
+  display: grid;
+  color: rgba(12, 16, 109, 0.6);
+  padding: 10px 10px 20px 40px;
+  margin: 0;
+  font: bold;
+  background-color: rgba(12, 16, 109, 0.6);
+}
+
+
+.auth {
+
+  display: grid;
+  margin-top: 210px;
+  margin-left: 70px;
+
+  left: 5%;
+  transform: translate(40%, -40%);
+  padding: 10;
+  border-radius: 0.3rem;
+  min-width: 30rem;
+  max-width: 22rem;
+}
+
+.auth h3 {
+
+  margin-top: 250px;
+  margin-left: 70px;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10;
+  padding-bottom: 10rem;
+  border-bottom: 0.1rem solid silver;
+}
+
+.auth form {
+  margin: 10px;
+
+}
+
+.auth input {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+  height: 2rem;
+  font-size: 14px;
+  border: none;
+  border-bottom: 0.15rem;
+  padding: 0 1.2rem;
+  outline: none;
+}
+
+.auth input:hover {
+  border-bottom: 0.15rem solid #0086da;
+}
+
+.auth input::placeholder {
+  color: rgb(163, 163, 163);
+}
+
+.auth form p {
+  font-size: 1.3rem;
+  padding: 3rem 0 0 0.5rem;
+  color: rgb(163, 163, 163);
+}
+
+.auth form p:hover {
+  color: rgb(80, 80, 80);
+  cursor: pointer;
+}
+
+.auth button[type="submit"] {
+  display: block;
+  margin: 2rem auto;
+  font-size: 1.6rem;
+  width: 50%;
+  padding: 0.9rem 0;
+  border-radius: 1.7rem;
+  border: none;
+  background-color: #0086da;
+  color: #ffffff;
+}
+
+.auth button[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.auth .login-message {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.auth .login-message span {
+  color: #007ecc;
+  font-weight: 600;
+}
+
+.auth .login-message span:hover {
+  cursor: pointer;
+}

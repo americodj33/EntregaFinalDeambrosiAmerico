@@ -1,0 +1,30 @@
+
+/* mobile */
+@media screen and (max-width: 490px) {
+    body {
+        background-color: indigo;
+    };
+}
+
+
+/* tableta */ 
+@media screen and (min-width: 491px)
+  and (max-width: 968) {
+
+ body {
+      background-color: whitesmoke;
+      
+ }
+}
+
+
+/* desktop */ 
+@media screen and (min-width: 969px)
+  and (max-width: 968) {
+
+ body {
+      background-color: whitesmoke;
+     
+ }
+}
+

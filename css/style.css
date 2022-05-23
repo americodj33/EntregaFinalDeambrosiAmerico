@@ -1,0 +1,651 @@
+/* un mapa podemos tener un objeto que contiene
+diferentes valores para una misma seccion
+*/
+/* Se arman con () y dentro hay una key
+y un valor */
+h1 {
+  font-size: 80px;
+}
+
+.p {
+  font-size: 14px 16px;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.p {
+  font-size: 14px 16px;
+}
+
+/* mobile */
+@media screen and (max-width: 490px) {
+  body {
+    background-color: indigo;
+  }
+}
+/* tableta */
+@media screen and (min-width: 491px) and (max-width: 968) {
+  body {
+    background-color: whitesmoke;
+  }
+}
+/* desktop */
+@media screen and (min-width: 969px) and (max-width: 968) {
+  body {
+    background-color: whitesmoke;
+  }
+}
+.p {
+  font-size: 32;
+  font-family: "Franklin Gothic Medium";
+}
+
+.form-group {
+  border-radius: 33px;
+}
+
+.contacto {
+  display: inline-block;
+  /*   @mixin botonaceptar($radius,$relleno,$borde) {
+      border-radius: $radius;
+      padding: $relleno;
+      border: $borde;
+  } */
+  font-size: 100;
+  font-family: "Franklin Gothic Medium";
+}
+
+.imagen-blog {
+  width: 80%;
+  height: 55%;
+}
+
+/*.btn {
+    @include botonaceptar(10px, 33px,3px solid green )
+
+}*/
+html {
+  background-color: rgb(90, 158, 210);
+  font-family: Georgia;
+}
+
+header {
+  background-color: rgb(90, 158, 210);
+  grid-column: 3/9;
+  grid-row: 3/3;
+}
+
+#gridpadre {
+  display: grid;
+  grid-template-columns: repeat(8, 300px);
+  grid-template-rows: repeat(8, 700px);
+  /*grid-template-columns: 1fr 150px 1fr;
+  grid-template-rows: 400px 500px 300px 300px;*/
+  grid-template-areas: "header header header header header header header header" "nav nav nav nav nav nav nav" "article article article article article article article article" "article article article article  article" "article article article article  article" "article article article article  article" "footer footer footer footer footer";
+  max-width: 960px;
+  height: 500px;
+  background-color: rgb(90, 158, 210);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+#gridpadre .imagen {
+  height: 120px;
+  width: 160px;
+  justify-content: center;
+  background-color: rgb(90, 158, 210);
+}
+
+header,
+nav,
+aside,
+article,
+footer {
+  /* border: 1px solid black;*/
+  padding: 20px;
+}
+
+nav {
+  background-color: rgb(90, 158, 210);
+}
+
+.claseh3 {
+  justify-content: 30px;
+  margin: 30px;
+}
+
+header,
+nav,
+aside,
+footer {
+  /* border: 1px solid black;*/
+  padding: 20px;
+  background-color: rgb(90, 158, 210);
+}
+
+nav {
+  background-color: rgb(87, 87, 231);
+  grid-column: 9/9;
+  grid-row: 3/4;
+}
+
+aside {
+  background-color: coral;
+  grid-column: 7/9;
+  grid-row: 4/8;
+}
+
+article {
+  background-color: rgb(90, 158, 210);
+  grid-column: 1/7;
+  grid-row: 3/8;
+}
+
+footer {
+  background-color: rgb(24, 137, 218);
+  grid-column: 1280px;
+  grid-row: 1280px;
+}
+
+/*
+
+.gridpadre {
+    display: grid;
+
+    grid-template-columns: 200 2fr auto;
+    grid-auto-rows: 200 2fr auto;
+    grid-template-areas:
+        "header header header header header"
+        "nav nav nav nav nav"
+
+        "article article article article  article"
+        "article article article article  article"
+
+        "footer footer footer footer footer";
+    width: 1100px;
+    max-width: 1100px;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+
+
+
+
+    header {
+        grid-area: header;
+        height: 30px;
+        background-color: rgba(230, 163, 81, 0.358);
+
+    }
+
+
+
+
+    div a {
+        display: grid;
+        text-decoration: none;
+        color: rgb(71, 6, 100);
+        text-align: start;
+
+        padding: 0;
+        font-weight: bold;
+        height: 20px;
+        width: 145px;
+
+
+        a:hover {
+            background-color: #1e3c9d;
+            opacity: 1;
+        }
+    }
+
+}
+
+
+article {
+    margin-top: 30px;
+    padding: 10px;
+    grid-area: article;
+    color: black;
+}
+
+.article2 {
+
+    padding: 10px;
+    grid-area: article2;
+    color: black;
+}
+
+article p {
+    font-family: Georgia;
+    font-size: 20px;
+    color: black;
+}
+
+article h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+}*/
+/* un mapa podemos tener un objeto que contiene
+diferentes valores para una misma seccion
+*/
+/* Se arman con () y dentro hay una key
+y un valor */
+h1 {
+  font-size: 80px;
+}
+
+.p {
+  font-size: 14px 16px;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.p {
+  font-size: 14px 16px;
+}
+
+.p {
+  font-size: 32;
+  font-family: "Franklin Gothic Medium";
+}
+
+.form-group {
+  border-radius: 33px;
+}
+
+.contacto {
+  display: inline-block;
+  /*   @mixin botonaceptar($radius,$relleno,$borde) {
+      border-radius: $radius;
+      padding: $relleno;
+      border: $borde;
+  } */
+  font-size: 100;
+  font-family: "Franklin Gothic Medium";
+}
+
+.imagen-blog {
+  width: 80%;
+  height: 55%;
+}
+
+/*.btn {
+    @include botonaceptar(10px, 33px,3px solid green )
+
+}*/
+body {
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  font-family: "Poppins", sans-serif;
+  height: 500px;
+  width: 1280px;
+  max-width: 1280px;
+  margin: 120 20;
+}
+
+.contacto {
+  clear: right;
+  display: grid;
+  color: rgba(12, 16, 109, 0.6);
+  padding: 10px 10px 20px 40px;
+  margin: 0;
+  font: bold;
+  background-color: rgba(12, 16, 109, 0.6);
+}
+
+.auth {
+  display: grid;
+  margin-top: 210px;
+  margin-left: 70px;
+  left: 5%;
+  transform: translate(40%, -40%);
+  padding: 10;
+  border-radius: 0.3rem;
+  min-width: 30rem;
+  max-width: 22rem;
+}
+
+.auth h3 {
+  margin-top: 250px;
+  margin-left: 70px;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10;
+  padding-bottom: 10rem;
+  border-bottom: 0.1rem solid silver;
+}
+
+.auth form {
+  margin: 10px;
+}
+
+.auth input {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+  height: 2rem;
+  font-size: 14px;
+  border: none;
+  border-bottom: 0.15rem;
+  padding: 0 1.2rem;
+  outline: none;
+}
+
+.auth input:hover {
+  border-bottom: 0.15rem solid #0086da;
+}
+
+.auth input::placeholder {
+  color: rgb(163, 163, 163);
+}
+
+.auth form p {
+  font-size: 1.3rem;
+  padding: 3rem 0 0 0.5rem;
+  color: rgb(163, 163, 163);
+}
+
+.auth form p:hover {
+  color: rgb(80, 80, 80);
+  cursor: pointer;
+}
+
+.auth button[type=submit] {
+  display: block;
+  margin: 2rem auto;
+  font-size: 1.6rem;
+  width: 50%;
+  padding: 0.9rem 0;
+  border-radius: 1.7rem;
+  border: none;
+  background-color: #0086da;
+  color: #ffffff;
+}
+
+.auth button[type=submit]:hover {
+  cursor: pointer;
+}
+
+.auth .login-message {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.auth .login-message span {
+  color: #007ecc;
+  font-weight: 600;
+}
+
+.auth .login-message span:hover {
+  cursor: pointer;
+}
+
+/* un mapa podemos tener un objeto que contiene
+diferentes valores para una misma seccion
+*/
+/* Se arman con () y dentro hay una key
+y un valor */
+h1 {
+  font-size: 80px;
+}
+
+.p {
+  font-size: 14px 16px;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.p {
+  font-size: 14px 16px;
+}
+
+.p {
+  font-size: 32;
+  font-family: "Franklin Gothic Medium";
+}
+
+.form-group {
+  border-radius: 33px;
+}
+
+.contacto {
+  display: inline-block;
+  /*   @mixin botonaceptar($radius,$relleno,$borde) {
+      border-radius: $radius;
+      padding: $relleno;
+      border: $borde;
+  } */
+  font-size: 100;
+  font-family: "Franklin Gothic Medium";
+}
+
+.imagen-blog {
+  width: 80%;
+  height: 55%;
+}
+
+/*.btn {
+    @include botonaceptar(10px, 33px,3px solid green )
+
+}*/
+.imagenfooter {
+  width: 30%;
+  height: 28%;
+  margin-inline-end: grid;
+  background-color: rgb(90, 158, 210);
+}
+
+footer {
+  width: 1280px;
+  display: block;
+  clear: right;
+  padding: 0 10px;
+  font: bold;
+  text-decoration: none;
+  font-family: "built_titling", Helvetica, sans-serif;
+  font-weight: 20;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: black;
+  background-color: rgb(37, 56, 104);
+}
+
+footer section.container {
+  width: 90%;
+  margin: auto;
+  padding: 2rem 0 4rem 0;
+  display: flex;
+  height: 100px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+footer .logo img {
+  width: 70%;
+}
+
+footer .logo img:hover {
+  cursor: pointer;
+}
+
+footer .links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  justify-content: space-evenly;
+}
+
+footer .links ul li {
+  font-size: 1.5rem;
+  padding: 1.3rem;
+}
+
+footer .links ul li:hover {
+  color: var(--green);
+  cursor: pointer;
+}
+
+footer .links ul .heading {
+  color: var(--gray);
+  font-weight: 100;
+  font-size: 1.3rem;
+}
+
+footer .links ul .heading:hover {
+  color: var(--gray);
+  cursor: text;
+}
+
+footer .social {
+  flex-grow: 1;
+  margin: 20px 0;
+}
+
+footer .social ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer .social ul li {
+  font-size: 14px;
+  background-color: rgb(24, 44, 86);
+  border-radius: 5%;
+  height: 30px;
+  width: 5.5rem;
+  margin: 0 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social ul li:hover {
+  color: var(--green);
+  cursor: pointer;
+}
+
+footer .location {
+  width: 1100px;
+  height: 100px;
+  margin-top: 10px;
+  display: grid;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+  color: var(--gray);
+}
+
+footer .location:hover {
+  color: var(--green);
+  cursor: pointer;
+}
+
+footer .location i {
+  align-self: center;
+}
+
+footer .location span {
+  padding: 0 1rem;
+}
+
+footer .extras {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* galeria */
+/* un mapa podemos tener un objeto que contiene
+diferentes valores para una misma seccion
+*/
+/* Se arman con () y dentro hay una key
+y un valor */
+h1 {
+  font-size: 80px;
+}
+
+.p {
+  font-size: 14px 16px;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.p {
+  font-size: 14px 16px;
+}
+
+.p {
+  font-size: 32;
+  font-family: "Franklin Gothic Medium";
+}
+
+.form-group {
+  border-radius: 33px;
+}
+
+.contacto {
+  display: inline-block;
+  /*   @mixin botonaceptar($radius,$relleno,$borde) {
+      border-radius: $radius;
+      padding: $relleno;
+      border: $borde;
+  } */
+  font-size: 100;
+  font-family: "Franklin Gothic Medium";
+}
+
+.imagen-blog {
+  width: 80%;
+  height: 55%;
+}
+
+/*.btn {
+    @include botonaceptar(10px, 33px,3px solid green )
+
+}*/
+.galeria-img {
+  backface-visibility: hidden;
+  transition: all 0.5s;
+}
+
+.galeria-img:hover {
+  transform: scale(1.05);
+}
+
+.first-row {
+  transform: translateX(-300px);
+  opacity: 0;
+  transition: all 2.5s;
+}
+
+.second-row {
+  transform: translateX(300px);
+  opacity: 0;
+  transition: all 2.5s;
+}
+
+.change .first-row, .change .second-row {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* fin galeria */
+/*
+@import 'componentes/servicios';*/
+/*
+@import 'componentes/blog';
+
+@import 'componentes/galeria'; 
+/*
+@import 'componentes/containersobre';
+*/
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,57 @@
+@mixin parrafos($p1) {
+    font-size: $p1;
+    font-family: 'Franklin Gothic Medium';
+}
+
+@mixin imagen-blog {
+    width: 80%;
+    height: 55%;
+
+}
+
+@mixin flexbox($flex) {
+    display: $flex;
+    justify-content: $flex;
+    align-items: $flex;
+}
+
+@mixin formulario($radio) {
+    border-radius: $radio;
+
+}
+
+
+@mixin flex1($flex) {
+    display: $flex;
+
+    /*   @mixin botonaceptar($radius,$relleno,$borde) {
+        border-radius: $radius;
+        padding: $relleno;
+        border: $borde;
+    } */
+
+}
+
+.p {
+    @include parrafos(32)
+}
+
+.form-group {
+    @include formulario(33px);
+}
+
+.contacto {
+    @include flex1(inline-block);
+    @include parrafos(100);
+}
+
+.imagen-blog {
+    @include imagen-blog()
+}
+
+
+
+/*.btn {
+    @include botonaceptar(10px, 33px,3px solid green )
+        
+}*/

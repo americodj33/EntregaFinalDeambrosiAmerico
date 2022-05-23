@@ -1,0 +1,27 @@
+@import '../componentes/footer';
+@import '../componentes/contacto';
+
+
+.sectionaside {
+
+
+    aside {
+
+        padding: 10px;
+        grid-area: aside;
+    }
+
+    aside h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    aside p {
+        font-family: Georgia;
+        font-size: 16px;
+    }
+
+
+
+}

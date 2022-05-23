@@ -1,0 +1,28 @@
+.grid {
+    display: grid;
+    grid-template-columns: 200px 1fr 50px 2fr;
+    grid-template-rows: 5rem 10rem;
+    grid-column-gap: 10px;
+    row-gap: 10px;
+    border: 2px solid black;
+}
+
+html {
+    background-color: rgb(144, 208, 234);
+}
+
+.el1 {
+    background-color: brown;
+}
+
+.el2 {
+    background-color: rgb(42, 165, 81);
+}
+
+.el3 {
+    background-color: rgb(62, 98, 196);
+}
+
+.el4 {
+    background-color: rgba(233, 216, 32, 0.76);
+}

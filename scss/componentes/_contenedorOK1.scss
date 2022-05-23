@@ -1,0 +1,103 @@
+html {
+    background-color: rgb(129, 138, 248);
+    font-family: Georgia;
+    background-color: rgba(230, 163, 81, 0.358);
+
+}
+
+.imagen {
+    height: 120px;
+    width: 160px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.gridpadre {
+    display: grid;
+
+    grid-template-columns: 200 2fr auto;
+    grid-auto-rows: 200 2fr auto;
+    grid-template-areas:
+        "header header header header header"
+        "nav nav nav nav nav"
+
+        "article article article article  article"
+        "article article article article  article"
+
+        "footer footer footer footer footer";
+    width: 1100px;
+    max-width: 1100px;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+
+
+
+
+    header {
+        grid-area: header;
+        height: 30px;
+        background-color: rgba(230, 163, 81, 0.358);
+
+    }
+
+
+
+
+    div a {
+        display: grid;
+        text-decoration: none;
+        color: rgb(71, 6, 100);
+        text-align: start;
+
+        padding: 0;
+        font-weight: bold;
+        height: 20px;
+        width: 145px;
+
+
+        a:hover {
+            background-color: #1e3c9d;
+            opacity: 1;
+        }
+    }
+
+}
+
+
+article {
+    margin-top: 30px;
+    padding: 10px;
+    grid-area: article;
+    color: black;
+}
+
+.article2 {
+
+    padding: 10px;
+    grid-area: article2;
+    color: black;
+}
+
+article p {
+    font-family: Georgia;
+    font-size: 20px;
+    color: black;
+}
+
+article h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+}
